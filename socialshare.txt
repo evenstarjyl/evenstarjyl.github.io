@@ -1,0 +1,7 @@
+<div class="center"><a href="https://www.facebook.com/Dr-Jyls-Mobile-Vet-Connection-763210337089252/" target="_blank" rel="nofollow noreferrer"><img src="images/facebook.gif" width="30" height="30"  alt="facebook"></a> 
+&nbsp; &nbsp; &nbsp; 
+<a href="https://twitter.com/drjylrubin" target="_blank" rel="nofollow noreferrer">
+<img src="images/twitter.gif" width="30" height="30" alt="twitter"></a>
+&nbsp; &nbsp; &nbsp;
+<a href="https://www.linkedin.com/e/fpf/113621247/" target="_blank" rel="nofollow noreferrer"><img src="images/linked-in.png" width="30" height="30" alt="linked In"></a>
+</div>

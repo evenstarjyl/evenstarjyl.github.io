@@ -1,0 +1,2 @@
+<div class="floatleft" style="margin-left:10px;"><img src="images/vark-ark2c.jpg"  alt="VARK ark"></div>
+<div class="logo">Veterinary After Rescue Kare</div>

@@ -1,0 +1,81 @@
+<!-- pull down menu at less than 600px -->
+<ul>
+	<li class="has-sub"><a href="/">Home</a>
+		<ul>
+			<li><a href="consultations.html">Consultations</a></li>
+			<li><a href="policies.html">Policies</a></li>
+			<li><a href="pdf/client-form.pdf">Client Form</a></li>
+		</ul>
+	</li>	
+<li class="active"><a href="mobile-clinic.html">Mobile Vet</a></li>	
+
+<li class="has-sub"><a href="services.html">Dr. Jyl's Services &nbsp;</a>
+	  	<ul>
+	  	<li><a href="services-kinesiology-taping.html">Kinesiology Taping</a></li>
+	  	<li><a href="services-mistletoe-therapy.html">Mistletoe Therapy for Your Pets</a></li>
+	  	<li><a href="services-stem-cell-therapy.html">Stem Cell Therapy</a></li>
+	  	<li><a href="services-pulsing-electromagnetic-field.html">Pulsing Electromagnetic Field Therapy</a></li>
+	  	<li><a href="services-fecal-microbiota-transplantation.html">Fecal Microbiota Transplantation</a></li>
+	  		<li><a href="services-hyperthermia-cancer.html">Hyperthermia for Pet Cancer</a> </li>
+	  		<li><a href="services-anesthesia-free-pet-teeth-cleaning.html">Anesthesia Free Teeth Cleaning</a></li>	
+	  		<li><a href="services-anesthetic-dental-cleaning.html">Anesthetic Dental Cleaning</a></li>	
+	  		<li><a href="services-ionic-foot-bath.html">Ionic Foot Bath</a></li>
+	  		<li><a href="services-laser-therapy.html">Laser Therapy</a></li>
+	  		<li><a href="ozone-therapy.html">Ozone Therapy</a></li>
+	  		<li><a href="services-biophotonic-therapy.html">BioPhotonic Therapy</a></li>
+	  		<li><a href="services-prolozone-prolotherapy.html">Prolotherapy &amp; Prolozone Therapy</a></li>
+	  		<li><a href="vitamin-c-cancer-therapy.html">Vitamin C Cancer Therapy</a></li>
+	  		<li><a href="services-farm-animals.html">Farm Animal Care</a></li>
+				    <li class="indent"><a href="services-farm-animals-pigs.html">Piggy Tuneup</a></li>
+				    <li class="indent"><a href="services-farm-animals-rabbits.html">Rabbits</a></li>
+				    <li class="indent"><a href="services-farm-poultry-diseases.html">Chickens, Ducks, Geese</a></li>          		
+       <li><a href="services-acupuncture.html">Acupuncture</a></li>
+      <li><a href="services-reiki-raindrop-essential-oils-therapy.html">Reiki, Raindrop and Essential Oils Therapy</a></li>
+			<li><a href="services-vom.html">Veterinary Orthopedic Manipulation</a></li>
+	   		<li><a href="services-bladder-infections.html">Bladder And Urinary Infections</a></li>
+     	 	<li><a href="services-cat-declawing.html">Cat Declawing And Alternatives</a></li>
+     	 	<li><a href="services-heart-disease.html">Heart Disease Diagnosis &amp; Prevention</a></li>
+     	 	<li><a href="services-laser-surgery.html">Laser Surgery</a></li>
+     	 	<li><a href="services-geriatric-care.html">Geriatric Care</a></li>
+      	 	<li><a href="services-in-home-euthanasia.html">In Home Euthanasia</a></li>
+       </ul>
+	</li>
+	<li class="has-sub"><a href="wellness.html">Wellness</a>
+			<ul>
+			<li><a href="wellness-mistletoe-therapy-cancer.html">Use of Mistletoe Extract to Treat Cancer</a></li>
+			<li><a href="wellness-feeding-recipes.html">Recipes for Pets</a></li>
+			<li><a href="wellness-pet-allergies.html">Pet Allergies</a></li>
+			<li><a href="wellness-sacramento-magazine-article.html">Sacramento Magazine Feature</a></li>
+		<li><a href="wellness-pet-foods-recommended.html">Recommended Pet Foods</a></li>
+			<li><a href="wellness-separation-anxiety.html">Dealing With Separation Anxiety in Pets</a></li>
+			<li><a href="wellness-protect-pets-from-parasites.html">Protecting Your Pets from Parasites</a></li>
+			<li><a href="wellness-travel-tips-pets.html">Tips on Pet Travel- Traveling with pets</a></li>
+			<li><a href="wellness-bathing-pets.html">Bathing your Pets</a></li>
+			<li><a href="wellness-cat-fight-wounds.html">Cat Fight Wounds</a></li>
+			<li><a href="wellness-pain-relief-for-pets.html">Pain Relief For Pets</a></li>
+			<li><a href="wellness-microchips-pets.html">Microchips Prevent Lost Pets</a></li>
+			<li><a href="wellness-flea-control.html">Flea Control Treatments</a></li>
+		</ul>
+	</li>	
+	<li class="has-sub"><a href="about-us.html">About Us</a>
+		<ul><li><a href="staff.html">Our Staff</a></li>
+			 <li><a href="career-opportunities.html">Career Opportunities</a></li>
+		  <li><a href="org-member.html">Organizations</a></li>
+			<li><a href="gallery-patients.html">Patient's Pics</a></li>
+		   	<li><a href="pet-rescue.html">Pet Rescue</a></li> 
+	  </ul>
+	</li>	
+  <li class="has-sub"><a href="media.html">Videos</a>
+		<ul>
+		<li><a href="videos-pet-safety.html">Pet Safety</a></li>
+		<li><a href="videos-wellness-pets.html">Pet Wellness for Cats and Dogs</a></li>
+		<li><a href="videos-wellness-pets2.html">Pet Wellness for Other Pets</a></li>
+		<li><a href="videos-illness-treatment.html">Pet Illness and Treatment</a></li>
+		<li><a href="videos-animal-safety.html">Animal Safety</a></li>
+		<li><a href="videos-nutrition-diet.html">Pet Nutrition and Diet</a></li>
+		<li><a href="videos-fun-stuff.html">Fun Stuff</a></li>
+		</ul>
+	  </li>
+	  <li class="active"><a href="pet-health-financing.html">Financing</a></li>	  
+    <li class="active"><a href="contact-us.html">Contact</a></li> 
+</ul>

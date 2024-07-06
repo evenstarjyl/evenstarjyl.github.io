@@ -1,0 +1,60 @@
+<!-- FOOTER is inside content area-->
+
+
+ <!-- also on contact and financing pg -->
+<div class="center"><i><b>We accept cash, personal checks, VISA, MasterCard and Discover</b></i><br><img src="images/credit-options-min.jpg" alt="Visa, Mastercard, Discover and Care Credit logos">
+</div>
+
+<p class="center">Dr. Jyl's Veterinary Hospital and Mobile Veterinary Service<br>
+Her attention is always focused on you and your pets needs<br>
+<b>Dr. Jyl Rubin DVM (916) 989-0738</b><br>
+7438 Cardwell Avenue, Orangevale, California 95662<br>
+Copyright &copy; 2022, all rights reserved.<br>
+<a href="https://www.loriswebs.com/" rel="nofollow" class="smallfont"><span class="smallfont">Lori's Web Design</span></a>
+</p>
+
+
+<div class="left">
+<!-- StatCounter code for Drjyl.com https://www.drjyl.com -->
+<script>
+var sc_project=10562269; 
+var sc_invisible=1; 
+var sc_security="93201950"; 
+</script>
+<script 
+src="https://www.statcounter.com/counter/counter.js"
+async></script>
+<noscript><div class="statcounter"><a title="Web Analytics"
+href="https://statcounter.com/" target="_blank"><img
+class="statcounter"
+src="//c.statcounter.com/10562269/0/93201950/1/" alt="Web
+Analytics"></a></div></noscript>
+<!-- End of Statcounter Code -->
+</div>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-147451316-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-147451316-1');
+</script>
+
+
+<div class="box600">
+<h2>Hours</h2>
+<table><tr>
+<td style="width:150px; vertical-align:top;">
+Monday-Thursday:</td><td style="width:80px; vertical-align:top;">9AM-6PM</td><td style="vertical-align:top;">
+(all new client/patient consultation appointment times are scheduled between 10am-2pm Technician appointments only)</td></tr>
+<tr><td  style="vertical-align:top;">Friday:</td><td style="vertical-align:top;"> Closed<br><br></td></tr>
+<tr><td style="vertical-align:top;">Saturday:</td><td style="vertical-align:top;">9AM-2PM</td><td style="vertical-align:top;"> Boarding &amp; Prescription PickUp &amp; Drop off &amp; Technician appointments only</td></tr>
+<tr><td>Sunday:</td><td style="vertical-align:top;">Closed</td></tr>
+</table>
+
+<h2>NOTICE for Mobile Vet Visits</h2> 
+<p>We are still accepting clients in our office, however, we are <strong>temporarily</strong> not accepting any new mobile vet visits at this time. In the meantime, please contact other available mobile vets listed on our <a href="https://www.drjyl.com/contact-us.html">contact page<a>.</p>
+
+</div><!-- end box600 -->

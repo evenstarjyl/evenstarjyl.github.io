@@ -1,0 +1,515 @@
+body {
+ color: #333;
+ margin:0;
+ padding:0; 
+ font-size: 1.000em;  /*--base font 16px --*/
+ background:#CBB27C; /* tan */
+ font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, Serif; }
+
+ H1, H2, H3 {color: #401e05;  /*dk brown*/
+	text-align: center; 
+	background: transparent; 
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, Sans-serif; } 
+				
+H1 {font-size:140%; }		
+H2 {font-size:120%; } 
+H3 {font-size:100%; } 
+
+#container { position:relative;
+	width:60.000em; /*960px*/
+	max-width:960px;
+	margin: 0 auto 10px auto;
+	border:1px solid  #602d07;  /*med brown*/  
+ background:#CBB27C; /* tan */
+	box-shadow: 5px 5px 5px #a18240; }
+	
+#header { width:100%;
+  margin:0 auto;
+	background:#1C1711; } /* charcoal matches img */
+
+#content { width:85%; 
+	font-size:112.5%; 
+	margin:0 auto;
+	background:transparent;  /*tan*/ }
+
+#footer { clear:both; 
+	width:100%;
+	background:transparent; }
+	
+
+/* ----------POSITIONING --------*/
+
+.left {text-align:left;} 
+.center {text-align:center;}
+.right {text-align:right;}
+
+.textbottom {vertical-align:text-bottom;}
+.textmiddle {vertical-align:middle;}
+.texttop {vertical-align:top;}
+.textbaseline {vertical-align:baseline;}
+
+.clearboth {clear:both;}
+.clearleft {clear:left;}
+.clearright {clear:right;}
+
+
+/*----------FONTS --------------*/
+
+.smallfont {font-size:85%; font-family:Cambria, Georgia, serif; }
+.medfont {font-size:100%; }
+.largefont {font-size:120%; }
+.exlargefont {font-size:130%; }
+.exexlargefont {font-size:140%; }
+
+.lgred {font-size:120%; color:#ff0000; }
+.bgwhite { background:#fff; }
+
+
+/*-------PADDING MARGINS -----------*/
+
+.pad5 {padding:5px; }
+.pad8 {padding:8px; }
+.pad8lrb {padding:0 8px 8px 8px;}
+
+.pad10 {padding:10px; }
+
+.pad12l {padding-left:12px; }
+.pad12r {padding-right:12px; }
+.pad12t {padding-top:12px; }
+.pad12b {padding-bottom:12px; }
+
+.mar12 {margin:12px; }
+.mar12l {margin-left:12px; }
+.mar12r {margin-right:12px; }
+.marb12 {margin-bottom:12px; }
+.mart12 {margin-top:12px; }
+
+.mar8 {margin:8px; }
+.mar8l {margin-left:8px; }
+.mar8r {margin-right:8px; }
+.marb8 {margin-bottom:8px; }
+.mart8 {margin-top:8px; }
+
+.mar20l {margin-left:20px; }
+.mar20r {margin-right:20px; }
+.marb20 {margin-bottom:20px; }
+
+
+ /* ---------STYLING ------------*/
+ 
+.border {border:1px solid #999;}
+.border2 {border:2px solid #999;}
+.brownborder {border:6px solid #401E05;}
+.border-gray {border:1px solid #ccc; }
+ 		
+.indent { margin-left:1.5em;
+   margin-right: 1.5em; }
+
+ img {border:0;
+	max-width:100%; /*it will scale down but not up  but only if size is included*/
+	height:auto;} /*preserves aspect ratio*/
+
+UL {list-style-type: disc; 
+	margin-top:0; }
+li {font-size:100%;
+	margin-bottom:4px; }
+
+.bullet {font-size: 18px;font-weight: bold;
+	padding-right:6px; }
+
+.hr {width:70%;
+	border-bottom:5px #401E05 solid; /*dk brown*/
+  margin-left:auto;
+  margin-right:auto; 
+	padding-top:5px;}
+	
+hr { width:70%;
+	border-bottom:2px #401E05 solid; /*dk brown*/  }
+
+/*-------------SPECIAL FEATURES --------*/
+
+.productbox {
+	width:260px;
+	padding:8px;
+	background:white; 
+	border:2px solid #602d07;      
+	box-shadow: 5px 5px 5px #a18240; }
+	
+.paypalbox {
+	font-size:100%;
+	width:280px;
+	padding:8px;
+	margin:0 auto;
+	text-align:center;
+	background:white; 
+	border:2px solid #602d07;      
+	box-shadow: 5px 5px 5px #a18240; }
+	
+.gallery {     /* needs no media queries */
+    text-align: center;  }
+.galleryitem {
+	margin:0 12px 12px 0;
+    display: inline-block;
+    text-align: center; 
+    vertical-align: top; }
+    
+.galleryitem130 {
+	width:130px; 
+	margin:0 12px 12px 0;
+  display: inline-block;
+  text-align: center; 
+  vertical-align: top; }
+  
+.galleryitemtesti {  /* surrounding blockquotes */
+	width:260px;  
+	padding:8px;
+	margin:5px 15px; 
+	display: inline-block;
+  text-align: left;
+  vertical-align: top; } 
+    
+/* BQ has a default margin of 40px and display block  add floats in html need 0 marg for floats */
+blockquote {  
+    font-family: Georgia, serif;
+    font-size: 95%;
+    font-style: italic;
+    width: 18.00em; /*260px*/
+    margin: 0;
+    padding: 10px;
+    line-height: 1.4;
+    position: relative;
+    background:#F5F5F5; /* very lt gray */ 
+    color: #383838;
+    border:1px solid #ccc; 
+	  border-radius:15px;   }
+blockquote:before { /*for extra lg quotes*/
+    display: block;
+    padding-left: 10px;
+    content: "\201C";
+    font-size: 80px;
+    position: absolute;
+    left: -20px;
+    top: -20px;
+    color: #7a7a7a; }
+blockquote cite {
+		display:block;
+    text-align:center;  }
+blockquote cite:before {
+    content: "\2014 \2009";  }
+blockquote a {color:#1d62e2 !important;
+		font-weight:500; }
+blockquote a:hover {color:#999; }   
+  
+
+		/*addtoimgtag*/
+.boxshadowimg { 
+	padding:0;
+	background:transparent; 
+	border:2px solid #602d07;      
+	box-shadow: 5px 5px 5px #a18240; }
+	
+		/*addtoimgtag on white bg*/
+.boxshadowimgwht { 
+	padding:0;
+	background:transparent; 
+	border:2px solid #999;      
+	box-shadow: 5px 5px 5px #999; }
+
+.boxshadow { /* use for text in boxes n add class box500 etc */
+	padding:10px; 
+	background:transparent; 
+	border:2px solid #602d07;      
+	box-shadow: 5px 5px 5px #a18240; }
+	
+.dropshadow { 
+	box-shadow: 3px 3px 3px #999;  }
+	
+	
+	/* add div with class iframe-container surrounded with div with class box560 - set up in media queries - or else it opens up at 100 percent width also box560 needs to be added to media with other boxes*/
+	
+.iframe-container{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: auto !important;
+}
+.iframe-container iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+		/*this prevents w3c warning re obsolete frameborder warning */
+
+iframe{ border-width: 0px;  }
+
+.box750 {width:750px;margin:0 auto;} /*for temp covid notice*/
+.box700 {width:700px;margin:0 auto;}
+.box600 {width:600px;margin:0 auto;}
+.box560 {width:560px;margin:0 auto;} /*for videos*/
+.box500 {width:500px;margin:0 auto;}
+.box450 {width:450px;margin:0 auto;}
+.box400 {width:400px;margin:0 auto;}
+.box300 {width:300px;margin:0 auto;}
+.box250 {width:250px;margin:0 auto;}
+.box200 {width:200px;margin:0 auto;}
+.box125 {width:125px; margin:0 auto;} /*dental clean calendar*/
+ 
+
+/*.floatleftvid { float:left;
+	margin:0 8px 0 8px; } */
+
+		/*for imgs w dropshadow*/
+.floatright { float:right;
+	margin:0 5px 10px 10px; }
+.floatleft { float:left;
+	margin:0 10px 10px 5px; }
+
+		/*pic gallery*/
+.floatleft100 {
+	float: left;
+	width: 100px; 
+	margin:5px; }
+
+	/*webmaster link*/
+.floatright130 {
+	float: right;
+	width: 130px; 
+	margin:5px; }
+
+	/*Sitemeter*/
+.floatleft130 {
+	float: left;
+	width: 130px; 
+	margin:5px; }
+
+.floatleft200 {
+	float: left;
+	width: 200px; 
+	margin:5px; }
+
+.floatright300 {
+	float: right;
+	width: 300px; 
+	margin:5px; }
+
+			/*video pgs*/
+.floatleft350 {
+	float: left;
+	width: 350px; 
+	margin: 0 5px 0 100px; }
+
+a:link, a:visited {color: #602d07;
+	font-weight: normal;
+	background: transparent;
+	text-decoration: underline;
+	font-weight:bold;
+	line-height:1.4; }
+a:hover, a:active {color: #a18240; }
+
+
+/*-------- responsive menu needs Jquery.js  script.js 
+		   menu and caret image files loaded  -------*/
+	
+#cssmenu {clear:both;
+  font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica,  Sans-serif;
+  font-weight:lighter; 
+  line-height: 1.4;   /*for legible tap size*/
+  text-align: center; 
+  margin: 0 0 -10px 0; /* this fixes 10px white sp under menu*/
+  padding:6px 0 10px 0;
+  width:100%; 
+  background: #1C1711; } /* charcoal matches img */
+#cssmenu > ul {
+  width: auto;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  background: #1C1711; } /* charcoal matches img */
+#cssmenu > ul li#responsive-tab {
+  display: none;
+  /* Hide for large screens */   }
+#cssmenu > ul li {
+  display: inline-block;   }
+#cssmenu > ul li.right {
+  float: right;  } 
+	  /*has sub drop down menu*/
+#cssmenu > ul li.has-sub {
+  text-align:left;
+  position: relative; 
+   	z-index:10; }
+#cssmenu > ul li.has-sub:hover ul {
+  display: block; 
+  opacity:0.9;  }
+#cssmenu > ul li.has-sub ul {
+  display: none;
+  width: 250px;  /*width of drop down space*/
+  position: absolute;
+  margin: 0;
+  font-size:100%;
+  padding-left: 8px; /* indents sub menu items*/
+  list-style-type: none;
+  background: #CBB27C;   /* BG under sub menu tan */
+  border: 1px solid #999;
+  border-top:none;  } 
+#cssmenu > ul li.has-sub ul li {   	/* has sub drop down links */
+  text-align:left;
+  display: block;  }
+		  /*has sub font color weight n pad*/
+#cssmenu > ul li.has-sub ul li a {  
+  color:#000;  
+  font-weight:normal; 
+  padding:4px; }  /*padding reduces double spacing*/
+ #cssmenu > ul li.has-sub ul li a.active span,
+ #cssmenu > ul li.has-sub ul li a:hover span {
+  color:#602D07; /*redbrown*/   }
+  		/*caret on top menu*/
+#cssmenu > ul li.has-sub > a {
+  background-image: url(https://www.drjyl.com/images/caret2-white.png);
+  background-repeat: no-repeat;
+  background-position: 85% 180%; } /*position of caret rt n top */
+#cssmenu > ul li.has-sub > a.active,   
+#cssmenu > ul li.has-sub > a:hover { /*caret on top menu for has sub  */
+  background: url(https://www.drjyl.com/images/caret2-white.png) no-repeat;
+  background-position: 90% -30%; 
+  background: #CBB27C;  /*tan*/ }
+#cssmenu > ul li a {
+  font-size: 95%; /*font size main menu*/
+  display: block;
+  padding: 8px 2em 9px 0;  /* pad between categories 32px Rt */
+  text-decoration: none;
+  color:#CBB27C;  /*tan*/  }   
+#cssmenu > ul li a.active,
+#cssmenu > ul li a:hover {
+   color:#000;  /*  main menu font color on hover */ 
+   background:#CBB27C;  /*tan*/
+   opacity:0.9;  }   /* main menu BG color on hover*/
+
+
+
+  /*-------------Mobile Media queries ----------*/
+  /* "menu"  in text and menu icon should appear below 600px */
+@media (max-width: 600px) {
+  #cssmenu > ul {
+    width: 100%; }
+  #cssmenu > ul li#responsive-tab {
+    display: block;  }
+  #cssmenu > ul li#responsive-tab a { 
+    background: url(https://www.drjyl.com/images/menu-gray-tan.png) no-repeat;
+    background-position: 95% 120%; }
+  #cssmenu > ul li#responsive-tab a:hover {
+    background:transparent;  /* bg under Menu text and icon on mouseover. */
+    background-position: 85% 109%; }
+  #cssmenu > ul li {
+    display: none; }
+  #cssmenu > ul li.right {
+    float: none; }
+  #cssmenu > ul li.has-sub {
+    position: relative; }
+  #cssmenu > ul li.has-sub ul {
+    display: block;
+    position: static;
+    width: 100%;
+    background: #fff;  /* bg under sub menu */
+    border: none; }
+  #cssmenu > ul li.has-sub ul li {
+    display: block !important; }
+  #cssmenu > ul li.has-sub ul li a span {   /*sub menu font color n padding*/
+     color:#2A63A6;   /*royal blue*/  
+    display: block;
+    padding-left: 14px; }   
+  #cssmenu > ul li.has-sub > a {
+    background-image: none; }
+  #cssmenu > ul li.active {
+    text-align:left; }
+ 					 }
+ 					 
+/*----------Menu for desktop  ---------*/
+/* Make sure they show even if hidden in mobile view by JS */
+@media (min-width: 600px) {
+  #cssmenu > ul > li.collapsed {
+    display: inline-block !important;  }
+  #cssmenu > ul ul li.collapsed {
+    display: block !important; }
+  }
+ 
+/*========================MEDIA===================*/
+
+
+	/* max 320 Smartphones portrait */
+	/* leave 'device" out to be able to view on computer */
+@media only screen and (max-width:320px) { 
+body {font-size:98%;}
+#container {width:100%; margin:0 auto; }
+#header { width:100%; margin:10px auto; }
+#content  {padding:2%; }
+h1 {margin:0 auto; padding:10px 10px; font-size:1.250em; display:block; word-wrap:break-word; } /*18px*/
+h2 {clear:both; font-size:1.000em; word-wrap:break-word;} /*16px*/
+.floatleft130 {width:5%;}
+ul li {margin-left:0; font-size:0.875em; }  /*3px 14px*/
+.box750,.box700,.box650,.box600,.box550,.box560,.box500,.box450,.box400,.box350,.box300{width:95%; }	
+blockquote {margin:0 auto;}
+#form { margin:0}	
+.floatright {float:none; text-align:center; width:100%;  }
+.floatleft {float:none; text-align:center;  width:100%;  }
+.mar12l {margin-left:0; }
+.mar12r {margin-right:0; }
+	}
+          
+
+	/* min320 x max480 Gen Smartphones/Nexus S portrait and landscape */
+		/* leave 'device" out to be able to view on computer */
+@media only screen and (min-width:320px) and (max-width:480px) {
+body {font-size:98%;}
+#container {width:100%; margin:0 auto;  }
+#header { width:100%; margin:10px auto 0 0; }
+#content  {padding:2%; }
+h1 {margin:0 auto;padding:10px 10px; font-size:1.250em; display:block; word-wrap:break-word; } /*18px*/
+h2 {clear:both; font-size:1.000em; word-wrap:break-word;} /*16px*/
+.floatleft130 {width:5%;}
+ul li {margin-left:0; font-size:0.875em; }  /*3px 14px*/
+.box750,.box700,.box650,.box600,.box560,.box550,.box500,.box450,.box400,.box350,.box300 {width:95%; }	
+blockquote {margin:0 auto;}
+#form { margin:0}	
+.floatright {float:none; text-align:center; width:100%;  }
+.floatleft {float:none; text-align:center;  width:100%;  }
+.mar12l {margin-left:0; }
+.mar12r {margin-right:0; }
+}
+
+
+	/* min 481 x max 767  TABLET  */
+@media only screen and (min-width:481px) and (max-width: 767px) {
+body {font-size:95%;}
+#container {width:100%; margin:0 auto; }
+#header { width:100%; margin:10px auto 0 0; }
+#content { width:95%;}
+h1 {clear:both; text-align:center; padding:10px 0;font-size:1.500em; display:block; word-wrap:break-word; } /*24px*/
+h2 {font-size:1.125em; text-align:center; word-wrap:break-word; margin-top:10px;} /*18px*/
+.floatright {float:none; text-align:center; width:100%;  }
+.floatleft {float:none; text-align:center;  width:100%;  }
+.mar12l {margin-left:0; }
+.mar12r {margin-right:0;  }
+.box760,.box550,.box650,.box600,.box560,.box500,.box450,.box400,.box300 {width:90%; }
+blockquote {margin:0 auto;}
+#form { clear:both; margin:0}	
+   }
+
+
+	/* min 768 to max 959 iPads (portrait) ----------- */
+  @media only screen and (min-width : 768px) and (max-width : 959px) 
+and (orientation : portrait) { 
+#container {width:98%; margin:0 auto; }
+#content  {width:97%; }   
+h1 {margin:0; font-size:1.875em; text-align:center; word-wrap:break-word;}  /*30px*/
+h2 {font-size: 1.8em; }
+	 }
+  
+
+
+
+
+
+

@@ -1,0 +1,41 @@
+<div class="box400 fb-like" data-href="http://www.facebook.com/pages/Veterinary-After-Rescue-Kare-VARK/129622378633" data-send="true" data-width="450" data-show-faces="false"></div>
+<br>
+<div class="pawprintborder"> </div>
+<p class="center">
+<b>&copy; 2018 Veterinary After Rescue Kare</b><br>
+All Rights Reserved<br>
+A 501(c) 3 Not for Profit Organization<br>
+Tax ID: 41-2099057<br>
+7438 Cardwell Ave., Orangevale, CA. 95662.<br> 
+<b>(916) 989-0733</b> &nbsp; &nbsp; 
+<script>
+<!--
+// Courtesy of SimplytheBest.net http://simplythebest.net/info/dhtml_scripts.html
+// hide script
+var stb_domain = "varkinfo.org"; 
+var stb_user = "vark"; 
+var stb_recipient = stb_user + "@" + stb_domain; 
+var stb_url = "mailto:" + stb_recipient; 
+var stb_visualName = "vark@varkinfo.org"; 
+document.write(stb_visualName.link(stb_url)); 
+// -->
+</script>
+</p> <!-- endcenter --> 
+
+<div class="floatleft">
+<!-- Statcounter  https://www.varkinfo.org -->
+<script>
+var sc_project=10621258; 
+var sc_invisible=1; 
+var sc_security="fac44e30"; 
+</script>
+<script 
+src="https://www.statcounter.com/counter/counter.js"
+async></script>
+<noscript><div class="statcounter"><a title="Web Analytics"
+href="http://statcounter.com/" target="_blank"><img
+class="statcounter"
+src="//c.statcounter.com/10621258/0/fac44e30/1/" alt="Web
+Analytics"></a></div></noscript>
+<!-- End of Statcounter Code -->
+</div>

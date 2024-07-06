@@ -1,0 +1,10 @@
+ErrorDocument 404 /missing.htm
+AddHandler server-parsed .htm
+
+Options +Includes
+Options +FollowSymLinks
+RewriteEngine on
+
+# Redirect all non-blank, non-canonical hostname requests to canonical hostname 
+RewriteCond %{HTTP_HOST} !^(www\.varkinfo\.org)?$
+RewriteRule (.*) http://www.varkinfo.org/$1 [R=301,L]

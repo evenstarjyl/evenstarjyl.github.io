@@ -1,0 +1,11 @@
+<p class="center">
+<!-- Google Custom Search--><gcse:search></gcse:search> 
+<img src="images/vet-wagon1.jpg" width="250" height="193" alt="vet wagon" class="boxshadowimg"></p>
+<p class="center"><b>Fill out our Client Form:</b><br>
+<a href="pdf/client-form.pdf"><img src="images/client-form1.gif" width="180" height="200" alt="client form"></a></p>
+<p class="center"><span class="largefont"><b>Pay your </b><a href="contact-us.html"><u>Mobile Vet Bill</u></a><b> by PayPal.Me</b></span></p>
+<p class="center"><b>Fill out our Boarding Form:</b><br>
+<a href="pdf/boarding-form.pdf"><img src="images/boarding-form.png" width="180" height="178" alt="boarding form"></a></p>
+<p class="center"><b>New Service:</b><br>
+<a href="services-reiki-raindrop-essential-oils-therapy.html">Reiki, Raindrop, and Essential Oil Therapies for Animals:
+<img src="images/reiki-raindrop-essential-oils1b.jpg" height="250" width="250" alt="new service - Reiki, Raindrop and Essential Oils" class="boxshadowimg"></a></p>
